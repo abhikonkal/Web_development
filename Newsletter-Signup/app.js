@@ -34,7 +34,7 @@ app.post("/",(req,res)=>
 
     const options={
         method:"POST",
-        auth:"abhik:c12d841cb33df30587a5a49ca044a2f2-us9",
+        auth:"",
     };
 
  
@@ -71,9 +71,6 @@ app.get("/",function(req,res){
 
 
 
-//Mail chimp Api
-//c12d841cb33df30587a5a49ca044a2f2-us9
-// 2d6ab18677 audience id
 
 
 
