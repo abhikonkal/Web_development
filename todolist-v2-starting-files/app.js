@@ -16,7 +16,7 @@ app.use(express.static("public"));
 // var items = [];
 // const workItems = [];
 
-mongoose.connect('mongodb+srv://admin-abhinav:tMWszhq5Dyi9Mk8X@cluster0.t9tzhn0.mongodb.net/todolistDB?retryWrites=true&w=majority');
+mongoose.connect('');
 
 const itemSchema = {
   name: String
