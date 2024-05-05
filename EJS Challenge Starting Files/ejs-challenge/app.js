@@ -13,7 +13,7 @@ const contactContent = "Scelerisque eleifend donec pretium vulputate sapien. Rho
 
 const app = express();
 
-mongoose.connect('mongodb+srv://admin-abhinav:tMWszhq5Dyi9Mk8X@cluster0.t9tzhn0.mongodb.net/todolistDB?retryWrites=true&w=majority');
+mongoose.connect('');
 
 app.set('view engine', 'ejs');
 
