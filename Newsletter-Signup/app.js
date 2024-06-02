@@ -30,7 +30,7 @@ app.post("/",(req,res)=>
         ]
     }
     const jsondata=JSON.stringify(data);
-    const url="https://us9.api.mailchimp.com/3.0/lists/2d6ab18678"
+    const url="your_mail_chimp_api"
 
     const options={
         method:"POST",
