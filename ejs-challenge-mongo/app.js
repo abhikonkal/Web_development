@@ -21,7 +21,7 @@ app.set('view engine', 'ejs');
 app.use(bodyParser.urlencoded({extended: true}));
 app.use(express.static("public"));
 
-mongoose.connect('');
+mongoose.connect('_your_mongo_url');
 
 const blogSchema={
   btitle:String,
